@@ -1,0 +1,448 @@
+/*font*/
+@font-face {
+  font-family: BrandonGrotesque-Bold;
+  src: url(fonts/BrandonGrotesque-Bold.ttf);
+}
+@font-face {
+  font-family: BrandonGrotesque-Medium;
+  src: url(fonts/BrandonGrotesque-Medium.ttf);
+}
+@font-face {
+  font-family:BrandonGrotesque-Light;
+  src: url(fonts/BrandonGrotesque-Light.ttf);
+}
+@font-face {
+  font-family: BrandonGrotesque-Regular;
+  src: url(fonts/BrandonGrotesque-Regular.ttf);
+}
+/*end-font*/
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/*header*/
+
+header{
+    background-image: url(image/banner.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 575px;
+}
+
+
+.container{
+    width: 75%;
+    margin: 0 auto;
+    
+    padding-top: 40px;
+}
+
+.head-top {
+    overflow: hidden;
+  
+}
+
+.logo {
+    width: 20%;
+    float: left;
+    
+}
+.logo img{
+    width: 100%;
+}
+
+.menu {
+    width: 75%;
+    float: right;
+   
+}
+.menu ul {
+    float: right;
+    
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+}
+.menu ul li a{
+    font-family: BrandonGrotesque-Medium;
+    font-size: 18px;
+    font-weight: ;
+    color: #fff;
+    text-decoration: none;
+    padding: 0px 30px;
+    margin-top: 5px;
+    display: inline-block;
+}
+.menu ul li:last-child a{
+    padding-right: 0px;
+}
+
+.slide-content {
+    
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 120px;
+    
+}
+    
+.title-1{
+    font-family:BrandonGrotesque-Light;
+    font-size: 32px ;
+    color:#fff ;
+}
+.title-2{
+    font-family:BrandonGrotesque-Bold;
+    font-size: 66px ;
+    font-weight: 700;
+    color:#fff ;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+button {
+    background: transparent;
+    color: white;
+    font-size: 23px;
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: .3s;
+}
+button:hover{
+    background: #000;
+    border: none;
+    
+}
+
+/*end-header*/
+
+/*start-blog*/
+
+.blog-1 {
+    padding: 70px 0px;
+}
+
+.wrapper {
+    width: 70%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.b-content {
+    width: 71%;
+float: left;
+}
+.b-title {
+    font-family:BrandonGrotesque-Light; 
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+.b-title span{
+    font-family:BrandonGrotesque-Bold;
+    
+}
+.b-text{
+    font-family:  BrandonGrotesque-Regular;
+    font-size: 18px;
+    color: #777777;
+}
+
+.b-icon {
+    width: 23%;
+    float: right;
+}
+.b-icon img{
+    width: 100%;
+    margin-top: 32px;
+}
+
+/*end-blog*/
+/*start-blog2*/
+
+.blog-2{
+    padding: 70px 0px;
+    background: #fafafa;
+}
+.b2-content {
+    float: right;
+    width: 71%;
+}
+
+.b2-icon {
+    float: left;
+    width: 23%;
+}
+.b2-icon img{
+    width: 100%;
+}
+/*end-blog2*/
+
+/*start-service*/
+.service {
+    
+}
+
+.single-item{
+     width: 78%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.S-left {
+    width: 47%;
+    float: left;
+    overflow: hidden;
+    margin: 25px 0px;
+}
+.icon {
+    width: 20%;
+    float: left;
+        
+}
+.icon img{
+ width: 100%;
+    margin-top: 5px;
+}
+
+.s-content {
+    width:74%;
+    float: left;
+    margin-left: 15px;
+}
+
+.s-content h5{
+    font-family:BrandonGrotesque-Medium;
+    font-size: 22px;margin-bottom: 10px;
+}
+.s-content p{
+    font-size: 18px;
+    color: #777777;
+    line-height: 24px;
+    text-align: justify;
+}
+
+.S-right {
+    width: 47%;
+    float: right;
+    padding: 20px 0px;
+    
+}
+/*end-service*/
+
+/*start-cilent*/
+.cilent {
+    background: #fafafa;
+}
+
+.cilent-title {
+    text-align: center;
+}
+.cilent-title .p{
+    font-family:BrandonGrotesque-Regular;
+    font-size: 22px;
+    color: #777777; 
+}
+
+.quation {
+    width:88%;
+    overflow: hidden;
+    margin: 50px 0px;
+        
+}
+
+.pic {
+    width: 20%;
+    float: left;
+        
+}
+.pic img{
+    width: 100%;
+}
+.q-text {
+    width: 65%;
+    float: right;
+     border: 3px solid #f1f1f1;
+    padding: 15px;
+    margin-top: 20px;
+    background: #fff;
+    margin-left: 20px;
+   
+}
+.quate{
+    font-family:BrandonGrotesque-Regular;
+    font-size: 26px;
+    color: #777777;
+    
+}
+
+.q-text h6{
+    font-family:BrandonGrotesque-Regular;
+    font-size: 20px;
+    color: #7690c5;
+}
+
+
+.pic2 {
+    width: 20%;
+    float: right;
+        
+}
+.pic2 img{
+    width: 100%;
+}
+
+.q-text2 {
+    width: 65%;
+    float: left;
+    border: 3px solid #f1f1f1;
+    padding: 15px;
+    margin-top: 20px;
+    background: #fff;
+    
+   
+}
+/*end-cilent*/
+
+/*brand-logo*/
+.brand-logo{
+    width: 60%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.logo-pic {
+    float: left;
+    width: 20%;
+    margin: 0px 15px;
+}
+.logo-pic img{
+    width: 100%;
+}
+/*end-logo*/
+
+/*start-team*/
+.team{
+    background: #000;
+    color: #fff;
+    min-height: 670px
+}
+.team-sec{
+    width: 75%;
+    margin: 0 auto;
+    
+    
+}
+.team-title {
+    text-align: center;
+     padding: 50px 0px;
+}
+
+.team-title .p{
+    font-family:BrandonGrotesque-Regular;
+    font-size: 22px;
+    color: #777777; 
+}
+.single-member {
+    width: 32%;
+    float: left;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.single-member p{
+    font-family:BrandonGrotesque-Bold;
+    font-size: 18px;
+    
+}
+.single-member h6{
+    font-family:BrandonGrotesque-Regular;
+    font-size: 16px;
+    
+}
+.twiter {
+    float: left;
+    margin: 20px;
+    cursor: pointer;
+        
+}
+
+/*start-footer*/
+
+footer{
+    background: #7690c5;
+    min-height: 575px;
+    color: white;
+}
+
+
+
+.footer-left {
+    width: 45%;
+    float: left;
+        
+}
+
+.footer-right {
+    width: 45%;
+    float: right;
+}
+
+.footer-item {
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+        margin: 50px 0px;
+}
+
+.F-left {
+    width: 40%;
+    overflow: hidden;
+    float: left;
+}
+
+.f-icon {
+    width: 25%;
+    float: left;
+}
+
+
+.f-content {
+    width: 70%;
+    float: right;
+}
+
+.F-right {
+     width: 40%;
+    overflow: hidden;
+    float: right;
+}
+
+input.name {
+    width: 400px;
+    height: 40px;
+    margin-bottom: 40px;
+}
+textarea {
+    width: 400px;
+    height: 200px;
+}
+
+.footer-title {
+    width: 75%;
+    border-top: 1px solid white;
+    margin: 0 auto;
+    text-align: center;
+    min-height: 30px;
+    padding: 20px;
+    color: white;
+    font-size: 16px;
+}
+
+.botton-line {
+    background: #7690c5;
+}
